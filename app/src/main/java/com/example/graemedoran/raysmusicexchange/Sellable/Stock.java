@@ -17,14 +17,9 @@ public abstract class Stock {
         this.GPM = GPM;
     }
 
-    public String getName(){
-        return this.name;
-    }
+    public String getName() {return this.name; }
 
-
-    public int getCOST(){
-        return this.cost;
-    }
+    public int getCost() {return this.cost; }
 
     public int getRetail(){
         return this.retail;
