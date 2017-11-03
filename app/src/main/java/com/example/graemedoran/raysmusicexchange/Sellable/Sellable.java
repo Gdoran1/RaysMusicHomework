@@ -5,4 +5,5 @@ package com.example.graemedoran.raysmusicexchange.Sellable;
  */
 
 public interface Sellable {
+    int calculategpm();
 }

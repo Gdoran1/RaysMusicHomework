@@ -4,9 +4,10 @@ package com.example.graemedoran.raysmusicexchange.Sellable.Playable;
  * Created by graemedoran on 03/11/2017.
  */
 
-public class Brass extends Instrument{
+public class StringInstrument extends Instrument{
 
-    public Brass(int Cost, int Retail) {
+
+    public StringInstrument(int Cost, int Retail) {
         super(Cost, Retail);
     }
 }

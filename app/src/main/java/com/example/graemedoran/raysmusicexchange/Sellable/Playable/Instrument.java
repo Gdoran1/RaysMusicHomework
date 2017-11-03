@@ -9,9 +9,11 @@ import java.lang.*;
  */
 
 public class Instrument extends Stock {
+    public String plays;
 
+    public Instrument(int Cost, int Retail) {
+        super(Cost, Retail);
 
-    public Instrument(int Cost, int Retail, int GPM) {
-        super(Cost, Retail, GPM);
+        this.plays = plays;
     }
 }

@@ -4,17 +4,17 @@ package com.example.graemedoran.raysmusicexchange.Sellable;
  * Created by graemedoran on 03/11/2017.
  */
 
-public abstract class Stock {
+public abstract class Stock implements Sellable {
 
     int cost;
     int retail;
-    int GPM;
 
-    public Stock(int Cost, int Retail, int GPM) {
+
+    public Stock(int Cost, int Retail) {
 
         this.cost = cost;
         this.retail = retail;
-        this.GPM = GPM;
+
     }
 
     public int getCost() {return this.cost; }
@@ -23,8 +23,8 @@ public abstract class Stock {
         return this.retail;
     }
 
-    public int getGPM(){
-        return this.GPM;
+    public int calculategpm(){
+        return this.retail - cost;
     }
 
 }

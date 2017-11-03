@@ -5,4 +5,5 @@ package com.example.graemedoran.raysmusicexchange.Sellable.Playable;
  */
 
 public interface Playable {
+    String sound();
 }
