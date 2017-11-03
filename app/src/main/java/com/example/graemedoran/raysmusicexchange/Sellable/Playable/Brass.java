@@ -9,4 +9,8 @@ public class Brass extends Instrument{
     public Brass(int Cost, int Retail) {
         super(Cost, Retail);
     }
+    public String sound(){
+        return "fanfare";
+    }
+
 }

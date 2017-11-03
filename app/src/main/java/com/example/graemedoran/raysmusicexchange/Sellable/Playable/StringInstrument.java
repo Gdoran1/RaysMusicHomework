@@ -10,4 +10,9 @@ public class StringInstrument extends Instrument{
     public StringInstrument(int Cost, int Retail) {
         super(Cost, Retail);
     }
+    public String sound(){
+        return "riff";
+    }
 }
+
+
