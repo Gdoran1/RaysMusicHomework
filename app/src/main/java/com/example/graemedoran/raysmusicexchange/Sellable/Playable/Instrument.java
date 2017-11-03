@@ -9,7 +9,9 @@ import java.lang.*;
  */
 
 public class Instrument extends Stock {
-    public Instrument(java.lang.String name, int Cost, int Retail, int GPM) {
-        super(name, Cost, Retail, GPM);
+
+
+    public Instrument(int Cost, int Retail, int GPM) {
+        super(Cost, Retail, GPM);
     }
 }
